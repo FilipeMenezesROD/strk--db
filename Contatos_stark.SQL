@@ -25,7 +25,7 @@ Table Contatos [headercolor: #7a1717] {
 
 Table "Categoria Contato" [headercolor: #191d1f] {
 	id_categoria integer [ pk, increment, not null ]
-	nome_categoria varchar(100) [ not null ]
+	nome_categoria varchar(100) [ not null ] aqui fiz a modificaçãO do "varchar" 255 para 100
 	descricao_nivel varchar(50) [ not null ]
 }
 
